@@ -1,5 +1,5 @@
 ![Ripple](/images/ripple.png)
-
+edit
 #The World’s Fastest and Most Secure Payment System
 
 **What is Ripple?**
