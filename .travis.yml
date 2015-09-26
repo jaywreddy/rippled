@@ -39,7 +39,7 @@ before_install:
   - sudo chown -R $USER ~/.npm
 
   #codcov
-  - pip install codecov
+  - sudo pip install codecov
 
 script:
   # Set so any failing command will abort the build
