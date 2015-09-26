@@ -72,6 +72,6 @@ notifications:
     channels:
       - "chat.freenode.net#ripple-dev"
 install:
-    pip install codecov
+    pip install codecov --user codecov
 after_success:
     codecov
