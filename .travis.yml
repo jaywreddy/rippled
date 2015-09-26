@@ -85,3 +85,9 @@ notifications:
   irc:
     channels:
       - "chat.freenode.net#ripple-dev"
+
+
+before_install:
+  - pip install codecov
+after_success:
+  - codecov
