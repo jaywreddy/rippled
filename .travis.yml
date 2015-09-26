@@ -38,9 +38,6 @@ before_install:
   # Make sure we own it
   - sudo chown -R $USER ~/.npm
 
-  #codcov
-  - sudo pip install codecov
-
 script:
   # Set so any failing command will abort the build
   - set -e
@@ -74,5 +71,7 @@ notifications:
   irc:
     channels:
       - "chat.freenode.net#ripple-dev"
+install:
+    pip install codecov
 after_success:
-  - codecov
+    codecov
